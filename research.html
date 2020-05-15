@@ -1,123 +1,190 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <title>Albert Thomas</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jasny-bootstrap/3.1.3/js/jasny-bootstrap.min.js"></script>
-<link href="https://cdnjs.cloudflare.com/ajax/libs/jasny-bootstrap/3.1.3/css/jasny-bootstrap.min.css" rel="stylesheet"/>
-<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet"/>
-  <style>
-    /* Remove the navbar's default margin-bottom and rounded borders */ 
-    .navbar {
-      margin-bottom: 0;
-      border-radius: 0;
-    }
-    
-    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
-    .row.content {height: 450px}
-    
-    /* Set gray background color and 100% height */
-    .sidenav {
-      padding-top: 20px;
-      background-color: #f1f1f1;
-      height: 100%;
-    }
-    
-    /* Set black background color, white text and some padding */
-    footer {
-      background-color: #555;
-      color: white;
-      padding: 15px;
-    }
-    
-    /* On small screens, set height to 'auto' for sidenav and grid */
-    @media screen and (max-width: 767px) {
-      .sidenav {
-        height: auto;
-        padding: 15px;
-      }
-      .row.content {height:auto;} 
-    }
-  </style>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <title>RESEARCH</title>
+    <style>
+        /* Remove the navbar's default margin-bottom and rounded borders */
+        
+        .navbar {
+            margin-bottom: 0;
+            border-radius: 0;
+        }
+        
+        .carousel-caption {
+            color: black;
+            width: 100%;
+            position: absolute;
+            top: 25%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+        
+        .row.content {
+            height: 450px
+        }
+        /* Set gray background color and 100% height */
+        
+        .sidenav {
+            padding-top: 20px;
+            background-color: #F0F8FF;
+            height: 100%;
+        }
+        /* Set black background color, white text and some padding */
+        /* On small screens, set height to 'auto' for sidenav and grid */
+        
+        @media screen and (max-width: 767px) {
+            .carousel-caption {
+                color: black;
+                width: 100%;
+                position: absolute;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+            .sidenav {
+                height: auto;
+                padding: 15px;
+            }
+            .row.content {
+                height: auto;
+            }
+        }
+        
+        .header {
+            position: relative;
+            color: black;
+            height: 220px;
+        }
+        
+        .topleft {
+            position: absolute;
+            top: 2px;
+            left: 250px
+        }
+        
+        .centered {
+            position: absolute;
+            top: 10%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        
+        div {
+            font-family: "Times New Roman", Times, serif;
+            text-align: justify;
+            text-justify: auto;
+            font-size: 15px;
+        }
+    </style>
 </head>
 <body>
+      <div class="row">
 
-<nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
-      </button>
+        <div class="col-sm-12">
+
+            <img class="img-fluid" src="images/bannerbg.jpg" alt="Chania" style="width:100%;height:200px;">
+
+            <div class="carousel-caption">
+                <h2><b>Sustainable Infrastructure Modeling (SiM) Group</b></h2>
+                <p><i>Construction Technology and Management  |  Department of Civil Engineering  |  IIT Bombay</i></p>
+            </div>
+
+        </div>
+
     </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-   <ul class="nav navbar-nav">
-	  
-        <li class="active"><a href="index.html">HOME</a></li>
-		<li><a href="research.html">RESEARCH</a></li>
-        <li><a href="publications.html">PUBLICATIONS</a></li>
-		<li><a href="lectures.html">INVITED TALKS</a></li>
-        <li><a href="video.html">VIDEOS</a></li>
-		<li><a href="people.html">PEOPLE</a></li>
-        <li><a href="software.html">SOFTWARE</a></li>
-      </ul>
-      
-    </div>
+
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+        
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">HOME</a>
+                </li>
+				 <li class="nav-link">
+                    <a class="nav-item active" href="research.html">RESEARCH</a>
+                </li>
+				
+                <li class="nav-item">
+                    <a class="nav-link" href="teaching.html">TEACHING</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="people.html">PEOPLE</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="publications.html">PUBLICATIONS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="awards.html">AWARDS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="alumni.html">ALUMNI</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container-fluid text-left">
+        <div class="row content">
+           <div class="col-md-2 sidenav" style="height:auto;font-family:Times New Roman;">
+                <a href="index.html"><img src="images/albert.jpg" class="img-fluid img-thumbnail" height="200" width="200" alt="albert"></a>
+                <h5 class="text-left"><b>Albert Thomas, Ph.D.</b></h5>
+                <h6 class="text-left">Assistant Professor</h6>
+                <h6 class="text-left">Department of Civil Engineering<br>IIT Bombay<br>
+Powai, Mumbai – 400 076, Maharashtra, INDIA</h6>
+                <h6 class="text-left"><b>Specialization:</b><br><br>Construction Technology And Management<br><br></h5>
+                <h6 class="text-left"><b>Major Research Areas:</b><br><br>
+			   Sustainable Construction<br>
+			   Building Energy Simulation<br> Life Cycle Analysis<br>Lean Construction<br><br></h5>
+                <h6 class="text-left"><b>Personal Info:</b><br><br></b>
+                <h6 class="text-left"><b>Email:</b> albert@iitb.ac.in</h6>
+                <h6 class="text-left"><b>Phone No:</b>022 25767347</h6>
+                <h6 class="text-left"><b>Fax No:</b>022 25767302<br></h6>
+                <h6 class="text-left"><a href="https://scholar.google.com/citations?user=DT9t-pEAAAAJ&hl=en"><b>Google Scholar</b></a></h6>
+                <h6 class="text-left"><a href="https://www.researchgate.net/profile/Albert_Thomas3"><b>Research Gate </b></a><br><br></h6>
+            </div>
+            <div class="col-md-10 text-left">
+                <h2>Research Areas</h2> SiM group's research is focused in developing computational frameworks that help adopt sustainable and lean practices in buildings and infrastructure projects. The broad research being conducted in the group are given below.
+
+            
+			
+
+            <div class="col-md-12 text-left">
+
+                <p><br>
+                    <ol><img src="images/SD.jpg" alt="res" style="width:180px;height:100px;margin-right:15px;float:right;">
+                        <b>COMPUTATIONAL MODELING AND ANALYSIS OF COMPLEX SYSTEMS:</b> Most of the systems around us are inherently complex with several interrelationships, and understanding about these systems thus becomes challenging. Developing validated models that resonates its actual behavior is a preferable option for learning more about such systems. At SiM group, we mainly conduct research on modeling various infrastructure systems using methods such as system dynamics, agent-based and discrete event simulation to understand how the elements/agents interact and how the systems adapt over a period of time. Development of such simplified schemes would help the policy makers to understand the impact of various sustainible practices/policies on mainly the buildings and infrastructure projects/development. </ol>
+                </p>
+                <br>
+                <p>
+                    <ol><img src="images/BE.jpg" alt="res" style="width:185px;height:130px;margin-right:15px;float:right;">
+                        <b>BUILDING ENERGY OPTIMIZATION AND LIFE CYCLE ANALYSIS:</b> Buildings consume nearly 40% of the energy produced globally. Therefore, developing energy optimization techniques and approaches are useful and can thus help in reducing the environmental emissions from this sector. We approach this problem through several efforts such as 1. Building energy optimization through methods such as co-simulation, genetic algorithm and analytical heirarchy process 2. studies involving green buildings and its benefits to the Indian context 3. life cycle based analysis to understand environmental impacts of material intensive construction projects. 4. Development of GIS based urban building stock modeling schemes to understand building energy as well as sustainbility impacts of a group of buildings at an urban scale. </ol>
+                </p>
+                <br>
+                <p>
+                    <ol><img src="images/LP.jpg" alt="res" style="width:180px;height:110px;margin-right:15px;float:right;">
+                        <b>LEAN CONSTRUCTION:</b> Construction industry is marred by low productivity levels and lean construction is widely accepted as an alternative to the traditional construction planning and control methods. SiM group is focused on performing research in this domain by practicing lean tools and systems at construction projects, and developing innovative frameworks that can be an alternative to the existing project planning methods. The group has completed several projects in this front that has implemneted various lean tools such as last planner system, crew balance charts, work sampling methods, and 5S at Indian construction project sites </ol>
+                </p>
+                <br>
+            </div>
+			</div>
+<div class="footer-copyright text-center py-3" style="background-color: #a1d9bc;width:100%">© 2020 Copyright:
+    <a href="https://mdbootstrap.com/"> albert personal home page. All Rights Reserved</a>
   </div>
-</nav>
-  
-<div class="container-fluid text-left">    
-  <div class="row content">
- <div class="col-sm-2 sidenav" style="height:auto">
-	<a href="index.html"><img  src="images/albert.jpg" class="img-fluid img-thumbnail" height="200" width="200" alt="albert" ></a>
-    <h4 class="text-primary"><b>Albert Thomas, Ph.D.</b></h4>      
-    <h5 class="text-info">Assistant Professor</h5>
-    <h5 class="text-info">Department of Civil Engineering</h5>
-	<h5 class="text-info"><b>Specialization:</b>Construction Technology And Management</h5>
-	<h5 class="text-info"><b>Research Areas:</b>Sustainable Construction Management Practices, Building Energy Simulation, Lean Construction, Life Cycle Energy Analysis, Project Scheduling And Earned Value Analysis, Construction Project Lifecycle Management</h5>
-	<h5 class="text-info"><b>Email:</b> albert@iitb.ac.in</h5>
-    <h5 class="text-info"><b>Phone No:</b>02225767347</h5>
-	<h5 class="text-info"><b>Fax No:</b>02225767347</h5>
-      
+        </div>
+		
     </div>
-    <div class="col-sm-8 text-left"> 
-      <h2>Research Area</h2>
-      Dr. Thomas’s research is focused in developing frameworks that help adopt sustainable and lean practices in construction projects, thereby reducing the waste and environmental impacts. The main techniques adopted by his research lab include system dynamics simulation, agent based modeling, discrete event simulation, distributed simulation, life cycle analysis, energy simulation, and various lean construction based techniques. 
-      <hr>
-
-    </div>
-	
-	
-    <div class="col-sm-2 sidenav" style="height:auto">
-	<h2>News/Events</h2>
-      <div class="well">
-	    <h5 class="text-left">Opening for a full time PhD position starting from Jan 2019. <a href="#">Read more</a></h5>
-      </div>
-      <div class="well">
-        <h5 class="text-left">August 2018- Dr. Thomas delivered an invited lecture on the topic "BIM and energy modeling" at IIT Bombay</h5>
-		<hr>
-		<h5 class="text-left">July 2018- Dr. Thomas delivered an Invited lecture for the faculty development program at government engineering college trissur, Kerala, India, on the topic "Bulding energy modeling and simulation"</h5>
-		<hr>
-		<h5 class="text-left">July 2018- Ms. Ann Francis joined the research group as a PhD student. Welcome Ann!"</h5>
-		<hr>
-		<h5 class="text-left">June 2018- Keynote speaker at the international conference on sustainable construction and building materials (ICSCBM-2018), on the topic " Adopting lean and sustianibility based techniques for effective management of construction
-                                    projects" at NIT Suratkal, India.</h5>
-      </div>
-	  
-    </div>
-	
-  </div>
-</div>
-
-<footer class="container-fluid text-center">
-  <p>
-© Copyright 2019 albert personal home page. All Rights Reserved</p>
-</footer>
+   
 
 </body>
+
 </html>
